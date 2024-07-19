@@ -71,13 +71,60 @@ h1 {
 }
 
 .instructions {
-  margin-top: 20px;
-  text-align: left;
-  max-width: 600px;
-  margin: 0 auto;
+  margin-top: 30px;
+  text-align: left; 
+  max-width: 800px; 
+  background-color: #1e1e1e; 
+  padding: 20px; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  font-family: 'Source Code Pro', monospace; 
 }
 
-ol {
-  list-style-type: decimal;
+.instructions h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #4caf50; 
+}
+
+.instructions ul {
+  list-style-type: disc; 
   padding-left: 20px;
+  line-height: 1.6; 
+}
+
+.instructions li {
+  margin-bottom: 10px; 
+}
+
+.instructions code {
+  background-color: #333; 
+  color: #f1f1f1; 
+  padding: 2px 4px; 
+  border-radius: 4px; 
+}
+
+
+
+.video-container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+video {
+  max-width: 100%;
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+}
+
+.video-info {
+  margin-top: 30px; 
+}
+
+.video-info h3 {
+  font-size: 1.5rem; 
+  color: #4caf50; 
+  margin-bottom: 15px; 
 }

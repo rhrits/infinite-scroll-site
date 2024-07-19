@@ -28,19 +28,32 @@ function App() {
         >
           Download Extension
         </a>
-        <div className="instructions">
-          <h2>Steps to use this extension:</h2>
-          <ol>
+        <div className="video-info">
+          <h3>Follow the steps in the video</h3>
+        </div>
+        
+        <div className="video-container">
+          <video width="600" controls>
+            <source src="/videos/steps.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <br></br>
+          <div className="instructions">
+          <h2>Steps to use this extension</h2>
+          <ul>
             <li>Click the "Download Extension" button.</li>
             <li>Unzip the downloaded file.</li>
-            <li>Open Chrome and go to <code>chrome://extensions/</code>.</li>
-            <li>Enable "Developer mode" by clicking the toggle switch at the top right.</li>
+              <li>Open Chrome and go to <code>chrome://extensions/</code>.</li>
+              <li>Enable "Developer mode" by clicking the toggle switch at the top right.</li>
             <li>Click the "Load unpacked" button.</li>
             <li>Select the unzipped folder containing your extension files.</li>
             <li>Now refresh the page.</li>
             <li>You are ready to use the extension!</li>
-          </ol>
-        </div>
+          </ul>
+          </div>
+
+        
       </header>
     </div>
   );
